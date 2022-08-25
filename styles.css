@@ -1,0 +1,67 @@
+body{
+    padding:20px;
+}
+.headsec{
+    background-color: aqua;
+    height: auto;
+    text-align: center;
+    padding: 2rem;
+    background-image: url("frisbee.webp");
+}
+.headsec h1{
+    font-family:sans-serif;
+    color: aliceblue;
+    font-size: 22px;
+    padding: 10px;
+    position: relative;
+    bottom: 20px;
+}
+.headsec header nav a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 12px 50px;
+    margin: auto 50px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 10px;
+    background-color: black;
+    opacity: 0.5;
+    color: aliceblue;
+}
+.headsec header nav a:hover{
+    opacity: 1;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: aquamarine;
+    width: 18%;
+    float: left;
+    position: relative;
+    bottom: 20px;
+}
+.left a img{
+    width: 16rem;
+    height: 10rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: solid black;
+}
+.left a{
+    width: 30%;
+}
+.right{
+    position: relative;
+    bottom: 20px;
+    margin-left: 21rem;
+}
+.right p{
+    line-height: 1.5;
+    font-size: 20px;
+
+}
+.right h2{
+    padding-top: 15px;
+}
